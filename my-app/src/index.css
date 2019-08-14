@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.credit-card{
+width: 350px;
+background-image: url(credit.jpg);
+color: white;
+border-radius: 10px;
+padding:0 10px;
+
+
+}
+
+.credit-card-title{
+
+text-align: right;
+
+}
+.credit-card-content{
+
+  display: flex;
+
+}
+.credit-card-chip{
+
+background-image: url(chip1.PNG);
+height: 55px;
+width: 80px;
+background-repeat: no-repeat;
+
+
+}
+.credit-card-number{
+
+  color: burlywood;
+  background-color: rgba(186, 175,125, 0.2);
+
+
+
+}
+.credit-card-valid-thru{
+
+text-align: right;
+
+}
+.credit-card-hold-name{
+
+padding: 0;
+font-size: 1.2em;
+
+}
+.credit-card-logo{
+
+width: 80px;
+display: flex;
+align-items: flex-end;
+padding-bottom: 10px;
+
+}
+.credit-card-logo img{
+
+width: 100%;
+
+}
+.credit-card.text{
+
+flex: 1;
+padding-right: 10px;
+
+}
